@@ -313,14 +313,14 @@ const projects = [
         link: "https://github.com/alliance-com/Formation_Dclic/tree/0e8f3e09fbed7c9d086a465b7f157b1c40d5bc29/Projet1"
     },
     {
-        title: "Portfolio personnel",
-        description: "Un site moderne pour présenter mes compétences et projets.",
-        link: "https://mon-site.com/portfolio"
+        title: "Projet final - Calculateur de prêt hypothécaire",
+        description: "Calculateur",
+        link: "https://github.com/alliance-com/Formation_Dclic/tree/main/Projet5/Exercice6"
     },
     {
-        title: "Application To-do List",
-        description: "Une application web pour gérer ses tâches quotidiennes.",
-        link: "https://mon-site.com/todo-list"
+        title: "Manipulation de Tableaux",
+        description: "Réalisation de tableau .",
+        link: "https://github.com/alliance-com/Formation_Dclic/tree/main/Projet5/Exercice5"
     }
 ];
 
@@ -332,4 +332,12 @@ document.querySelectorAll('.project-card').forEach((card, index) => {
         
         modal.style.display = 'block';
     });
+});
+
+lock';
+
+   });
+
+);
+});
 });
