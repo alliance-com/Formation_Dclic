@@ -493,4 +493,52 @@ html {
     font-size: 28px;
     cursor: pointer;
 }
+/* Section CV */
+.cv-section {
+    padding: 100px 0;
+    background: #f4f6f8;
+}
 
+.cv-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cv-column h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.cv-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cv-column li {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.cv-download {
+    text-align: center;
+}
+
+.cv-download .download-cv {
+    background: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.cv-download .download-cv:hover {
+    transform: translateY(-2px);
+}
