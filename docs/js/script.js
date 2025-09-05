@@ -67,6 +67,16 @@ document.addEventListener('DOMContentLoaded', function() {
     animateSkillBars();
 
     // -------------------------
+    // Téléchargement du CV
+const downloadCvBtn = document.querySelectorAll('.download-cv');
+downloadCvBtn.forEach(btn => {
+    btn.addEventListener('click', function() {
+        this.style.transform = 'scale(0.95)';
+        setTimeout(() => this.style.transform = 'scale(1)', 150);
+        // Redirection vers le assets (mettre le vrai fichier dans le dossier /pdf)
+        window.open('assets/Alliance_BODJRENOU_CV.pdf', '_blank');
+    });
+});
     // Mise à jour nav active selon section visible
     // -------------------------
     function updateActiveNavLink() {
