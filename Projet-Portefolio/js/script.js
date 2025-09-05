@@ -310,7 +310,7 @@ const projects = [
     {
         title: "Réalisation de la Carte Mentale sur le Web et ses Principes de base ",
         description: "Un jeu interactif où l'utilisateur doit deviner un nombre aléatoire.",
-        link: "https://mon-site.com/mini-jeu"
+        link: "https://github.com/alliance-com/Formation_Dclic/tree/0e8f3e09fbed7c9d086a465b7f157b1c40d5bc29/Projet1"
     },
     {
         title: "Portfolio personnel",
