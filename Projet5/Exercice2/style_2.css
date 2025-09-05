@@ -1,0 +1,78 @@
+/* Centrage général du body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF7F50;
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    align-items: center;     /* centre verticalement */
+    height: 100vh;
+    margin: 0;
+    text-align: justify;      /* texte justifié */
+}
+h2 {
+  color: #0066cc;
+  text-align: center;
+}
+
+/* Conteneur central */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;   /* empile verticalement */
+    align-items: center;      /* centre le contenu horizontalement */
+    width: 350px;
+}
+
+/* Input */
+input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #87cefa; /* bordure bleu clair */
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #32cd32; /* vert clair au focus */
+    outline: none;
+}
+
+/* Boutons */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #87cefa;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Effet au survol */
+button:hover {
+    background-color: #00bfff;
+}
+
+/* Conteneur des boutons pour les aligner */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;        /* les boutons passent à la ligne si nécessaire */
+    justify-content: center; /* centre les boutons horizontalement */
+    gap: 10px;               /* espace entre les boutons */
+    margin-top: 10px;
+}
+
+/* Paragraphes résultats */
+p {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;      /* centre les résultats */
+}

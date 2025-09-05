@@ -1,0 +1,29 @@
+/* 4. Couleur de fond du body */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* 7. Classe highlight */
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+/* 9. Sélecteur de type pour tous les li */
+li {
+    color: green;
+    padding: 5px;
+}
+
+/* 10. Classe special */
+.special {
+    border: 2px solid black;
+    background-color: #ddd;
+}
+
+/* 11. ID pour le premier élément */
+#first-item {
+    background-color: yellow;
+}

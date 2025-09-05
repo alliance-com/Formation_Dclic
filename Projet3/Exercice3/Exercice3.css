@@ -1,0 +1,30 @@
+body {
+  background-color: skyblue;
+}
+
+.center {
+  text-align: center;
+}
+
+#deuxieme {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+/* Changer la couleur du texte des éléments de classe "item-highlight" en bleu */
+.item-highlight {
+  color: blue;
+}
+
+/* Cibler tous les éléments dont la classe commence par "a" */
+[class^="a"] {
+  background-color: yellow;
+}
+
+/* Cibler tous les éléments dont la classe se termine par "date" */
+[class$="date"] {
+  background-color: green;
+}

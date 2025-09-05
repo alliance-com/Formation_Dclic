@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prénom - Développeur Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-nom">Alliance</span>
+                <span class="logo-plus"></span>
+                <span class="logo-prenom">BODJRENOU H.</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À propos</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Je suis <span class="highlight">Alliance</span>, Développeur en devenir passionné par le web et le design !</h1>
+                    <button class="cta-button">Voir mes projets</button>
+                </div>
+                <div class="hero-image">
+                    <img src="img/a.jpeg" alt="Développeur au travail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about-section">
+        <div class="container">
+            <h2 class="section-title">À propos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Je m'appelle <span class="highlight">Alliance BODJRENOU</span>, passionné par la création de <span class="highlight">sites web modernes et interactifs</spa>.</p>
+                    <p>Je suis actuellement <span class="highlight">étudiant</span> en <a href="#" class="link">développement web</a>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+             <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                    <button class="download-cv">Télécharger mon CV</button>
+                </div>
+                <div class="about-image">
+                    <img src="img/img.jpg" alt="Photo de profil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Mes Projets -->
+    <section id="projets" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Réalisation de la Carte Mentale sur le Web et ses principes de base</h3>
+                    <div class="project-tags">
+                        <span class="tag">Gitmind</span>
+                        <span class="tag">#css</span>
+                        <span class="tag">#js</span>
+                    </div>
+                    <button class="project-btn">Voir</button>
+                </div>
+                <div class="project-card">
+                    <h3>Un mini-jeu interactif en JavaScript qui utilise des événements DOM</h3>
+                    <div class="project-tags">
+                        <span class="tag">#html</span>
+                        <span class="tag">#css</span>
+                        <span class="tag">#js</span>
+                    </div>
+                    <button class="project-btn">Voir</button>
+                </div>
+                <div class="project-card">
+                    <h3>Un mini-jeu interactif en JavaScript qui utilise des événements DOM</h3>
+                    <div class="project-tags">
+                        <span class="tag">#html</span>
+                        <span class="tag">#css</span>
+                        <span class="tag">#js</span>
+                    </div>
+                    <button class="project-btn">Voir</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+<!-- Modale des projets -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modalTitle">Titre du projet</h3>
+        <p id="modalDescription">Description du projet...</p>
+    </div>
+</div>
+    <!-- Section Mes Compétences -->
+    <section id="competences" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Gestion de projet</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Résolution de problème</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Adaptabilité</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <h3>Hard Skills</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">VS Code</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Vous avez un <span class="highlight">projet en tête</span> ?</h2>
+                <p>N'hésitez pas à me <span class="highlight">contacter</span></p>
+                <form class="contact-form" action="https://formsubmit.co/alliancebodjrenou8@gmail.com" method="POST">
+    <!-- Sujet du mail -->
+    <input type="hidden" name="_subject" value="Nouveau message depuis le portfolio">
+    <!-- Redirection après envoi (optionnel) -->
+    <input type="hidden" name="_next" value="https://yourdomain.com/merci.html">
+    <!-- Anti-spam honeypot -->
+    <input type="text" name="_honey" style="display:none">
+    <!-- Formulaire visible -->
+    <div class="form-row">
+        <div class="form-group">
+            <label for="prenom">Votre prénom</label>
+            <input type="text" id="prenom" name="prenom" required>
+        </div>
+        <div class="form-group">
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="sujet">Votre sujet</label>
+        <input type="text" id="sujet" name="sujet" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Envoyer</button>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    
+<!-- Modale des projets -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modalTitle">Titre du projet</h3>
+        <p id="modalDescription">Description du projet...</p>
+    </div>
+</div>
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 Alliance BODJRENOU. Tous droits réservés.</p>
+    </div>
+</footer>
+</body>
+</html>

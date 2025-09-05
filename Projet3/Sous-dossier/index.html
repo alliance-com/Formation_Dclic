@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <form method="get" action="">
+  <p>
+    <label for="nom">Votre nom :</label>
+    <input type="text" name="nom" id="nom" placeholder="Ecrivez votre nom" size="20" maxlength="10">
+  </p>
+</form>
+<label for="description">Description : </label> <br>
+
+<textarea rows="10" cols="100">
+   C'est ici que vous pouvez saisir du texte sur plusieurs lignes.
+</textarea> </br>
+<input type="button" value="Cliquer ici" /> </br>
+<label for="email">Adresse e-mail :</label>
+
+<input type="email"
+       id="email"
+       name="email"
+       required
+       placeholder="votre@email.com">
+       
+<input type="radio"
+       id="option1"
+       name="options"
+       value="option1"
+       checked>
+<label for="option1">Option 1</label>
+
+<input type="radio"
+       id="option2"
+       name="options"
+       value="option2">
+<label for="option2">Option 2</label>
+<label for="volume">Volume :</label> </br>
+
+<input type="range"
+       id="volume"
+       name="volume"
+       min="0"
+       max="100"
+       value="50"></br>
+       
+<label for="birthdate">Date de naissance :</label>
+
+<input type="date"
+       id="birthdate"
+       name="birthdate"
+       min="1900-01-01"
+       max="2035-08-25"
+       value="2000-01-01">
+<label for="cars">Choisissez une voiture :</label>
+
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select> </br>
+
+<element attribut="codeJavaScript">
+  <button onclick="afficherMessage();">Cliquez-moi</button>
+<script>
+    function afficherMessage() {
+        alert("Bouton cliqué !");
+    }
+</script> </br>
+<form name="myForm" onsubmit="return validerFormulaire();">
+        <input type="text" name="username" placeholder="Nom d'utilisateur">
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <script>
+        function validerFormulaire() {
+            const username = document.myForm.username.value;
+            if (username === "") {
+                alert("Veuillez entrer un nom d'utilisateur.");
+                return false; // Empêcher l'envoi du formulaire
+            }
+            return true; // Envoyer le formulaire
+        }
+    </script>
+<form name="myForm">
+        <input type="text" name="message" placeholder="Entrez un message" oninput="afficherSaisie();">
+    </form>
+
+    <script>
+        function afficherSaisie() {
+            const message = document.myForm.message.value;
+            alert(`Saisie en cours : ${message}`);
+        }
+    </script>
+    <script>
+var a = 10;
+
+let monVariable = ‘’Bob’’;
+
+const pi = 3.14;
+if (true) {
+  var x = 5;
+}
+console.log(x); // x vaut 5
+if (true) {
+  let y = 5;
+}
+console.log(y); // ReferenceError: y 
+    </script>
+
+</body>
+
+</html>
