@@ -73,7 +73,7 @@ downloadCvBtn.forEach(btn => {
     btn.addEventListener('click', function() {
         this.style.transform = 'scale(0.95)';
         setTimeout(() => this.style.transform = 'scale(1)', 150);
-        // Redirection vers le assets (mettre le vrai fichier dans le dossier /pdf)
+        // Redirection vers le assets (mettre le vrai fichier dans le dossier /assets)
         window.open('assets/Alliance_BODJRENOU_CV.pdf', '_blank');
     });
 });
