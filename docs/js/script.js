@@ -254,18 +254,7 @@ typeWriter();
         });
     });
 
-    // -------------------------
-    // Téléchargement du CV
-    // -------------------------
-    const downloadCvBtn = document.querySelector('.download-cv');
-    if (downloadCvBtn) {
-        downloadCvBtn.addEventListener('click', function() {
-            this.style.transform = 'scale(0.95)';
-            setTimeout(() => this.style.transform = 'scale(1)', 150);
-            console.log('Téléchargement du CV...');
-            alert('Fonctionnalité de téléchargement à implémenter !');
-        });
-    }
+
 
     // -------------------------
     // Navbar transparente au scroll
